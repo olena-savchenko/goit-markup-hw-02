@@ -13,11 +13,12 @@
 }
 
 body {
-  color: var(--primary-color);
-  background-color: var(--primary-bgr);
-
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
+  font-size: 14px;
+
+  color: var(--primary-color);
+  background-color: var(--primary-bgr);
 }
 
 /* клас-утіліта для списків */
@@ -45,7 +46,6 @@ body {
 /* Загальні стилі всіх посилань у header*/
 .header-list {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -118,14 +118,12 @@ body {
   overflow: hidden;
 }
 .benefits-title {
-  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 
   color: var(--title-color);
 }
 .benefits-txt {
-  font-size: 14px;
   line-height: 1.71;
 }
 
@@ -172,7 +170,6 @@ body {
 .address {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
 }
 .address-location {
